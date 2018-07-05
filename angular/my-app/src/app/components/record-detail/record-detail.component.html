@@ -1,0 +1,21 @@
+<div *ngIf="record">
+  <h2>{{ record.name | uppercase }} Details</h2>
+  <div><span>Name: </span>{{record.name}}</div>
+  <div><span>Phone Number: </span>{{ record.phonenumber }}</div>
+
+  <div>
+    <label>Name:
+      <input [(ngModel)]="record.name" placeholder="name">
+    </label>
+  </div>
+  <div>
+    <label>Phone Number:
+        <input [(ngModel)]="record.phonenumber" placeholder="phonenumber">
+      </label>
+  </div>
+    <button (click)="goBack()">Go Back</button>
+    <button (click)="save()">Save</button>
+</div>
+
+
+

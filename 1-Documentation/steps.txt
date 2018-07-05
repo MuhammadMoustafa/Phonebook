@@ -1,0 +1,8 @@
+*server -- loopback*
+
+https://auth0.com/blog/developing-restful-apis-with-loopback/
+filter with where clause
+
+
+*client -- Angualr*
+https://angular.io/tutorial/toh-pt6#create-herosearchcomponent
